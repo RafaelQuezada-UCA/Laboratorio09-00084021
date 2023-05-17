@@ -1,0 +1,10 @@
+Rafael Andres Quezada Azenon 00084021
+Laboratorio09 - Preguntas
+
+1-Son un mecanismo de programacion que permite escribir codigo asincrono de manera secuencial y estructurada, la diferencia con los hilos tradicionales es que estas son de concurrencia cooperativa es decir que se puede decidir cuando suspender y cuando reaunudar.
+
+2-Lo mas importante es que esta suspension lo que hace es liberar este hilo para otras acciones y por ende es posible desarrollar codigo asincrono y no bloqueante que pueda manejar actividades largas.
+
+3-La funcion de este es para especificar en que hilo se ejecutara la coroutine, y la forma de elegir depende del tipo de aplicacion, ya que unos son mejores para entradas y salidas de datos, otro para tareas intensivas y asi para maximizar la velocidad del software.
+
+4-Es un constructor utilizado para lanzar coroutines asincronas y que la diferencia con Launch es que este nos devuelve una value y aparte sostiene las excepciones hasta que se manden a llamar.

@@ -47,7 +47,7 @@ class CoroutinesFragment : Fragment() {
             Log.i(MainActivity.APP_TAG, "Downloading user $i in ${Thread.currentThread().name}")
 
             // This is an ERROR
-            // tvMessage.text = "Downloading user $i" // Can not be called in a background thread
+            // binding.messageTextView.text = "Downloading user $i" // Can not be called in a background thread
 
             // Switch to main thread to update view
             withContext(Dispatchers.Main) {
